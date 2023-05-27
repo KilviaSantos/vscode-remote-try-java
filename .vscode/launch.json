@@ -7,7 +7,7 @@
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
             "stopOnEntry": false,
-            "mainClass": "com.mycompany.app.App",
+            "mainClass": "com.uece.app.App",
             "args": "",
             "projectName": "my-app"
         }
