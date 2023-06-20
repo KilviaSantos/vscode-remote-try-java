@@ -1,3 +1,4 @@
+package com.uece.app.programmingexam;
 import java.util.Scanner;
 
 public class Question1 {

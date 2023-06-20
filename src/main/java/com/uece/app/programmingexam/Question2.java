@@ -1,8 +1,8 @@
 package com.uece.app.programmingexam;
+import java.util.Scanner;
 
 public class Question2 {
- import java.util.Scanner;
-
+ 
     public static void main(String[] args) {
         // Declarar nota1 e nota2 = numero real
         double nota1, nota2;
@@ -84,7 +84,6 @@ public class Question2 {
         }
     }
 }   
-}
 
 // Elabore um algoritmo que leia as duas notas obtidas por um aluno (valores reais de 0 a 10) na//
 //disciplina de Linguagem de Programação I, o número total de aulas ministradas e o número de//
