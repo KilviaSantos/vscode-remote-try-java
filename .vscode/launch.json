@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question2",
+            "request": "launch",
+            "mainClass": "com.uece.app.programmingexam.Question2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Variables1",
+            "request": "launch",
+            "mainClass": "com.uece.app.programmingexam.Variables1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Question1",
+            "request": "launch",
+            "mainClass": "com.uece.app.programmingexam.Question1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Question1",
+            "request": "launch",
+            "mainClass": "com.uece.app.activity3.Question1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
