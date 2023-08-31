@@ -10,23 +10,19 @@ public class Quest3 {
         int opEscolha;
         opEscolha = operacao.nextInt();
             switch(opEscolha){
-            case 1:
-            getNumbers();
+            case 1:            
             adicao();    
                 break;
 
-            case 2:
-            getNumbers();
+            case 2:            
             subtracao();     
                 break;
                 
-            case 3:
-            getNumbers();
+            case 3:            
             multiplicacao();     
                 break;
         
-            default:
-            getNumbers();
+            default:            
             divisao(); 
                 break;
                 
@@ -57,44 +53,51 @@ public class Quest3 {
     //Realiza soma com os números
 
     public static void adicao(){
+        System.out.println("Você escolheu a adição! Então vamos começar!");
         int[] numeros = getNumbers();
 
         int num1= numeros[0];
         int num2= numeros[1];
         int resultado = num1 + num2;
-        System.out.println("A adição é: " + resultado);
+        System.out.println("O resultado da adição é: " + resultado);
     }
 
     //Realiza subtração com os números
 
     public static void subtracao(){
+        System.out.println("Você escolheu a subtração! Então vamos começar!");
         int[] numeros = getNumbers();
+
         int num1= numeros[0];
         int num2= numeros[1];
         int resultado = num1 - num2;
-        System.out.println("A subtração é: " + resultado);
+        System.out.println("O resultado da subtração é: " + resultado);
 
     }
 
     //Realiza multiplicação com os números
 
     public static void multiplicacao(){
+        System.out.println("Você escolheu a multiplicação! Então vamos começar!");
         int[] numeros = getNumbers();
+
         int num1= numeros[0];
         int num2= numeros[1];
         int resultado = num1 * num2;
-        System.out.println("A multiplicação é: " + resultado);
+        System.out.println("O resultado da multiplicação é: " + resultado);
 
     }
 
     //Realiza divisão com os números
 
     public static void divisao(){
+        System.out.println("Você escolheu a divisão! Então vamos começar!");
         int[] numeros = getNumbers();
+        
         int num1= numeros[0];
         int num2= numeros[1];
         int resultado = num1 / num2;
-        System.out.println("A divisão é: " + resultado);
+        System.out.println("O resultado da divisão é: " + resultado);
 
     }
 
