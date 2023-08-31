@@ -28,9 +28,7 @@ public class Quest3 {
                 
         }
 
-        // String opString = "soma", "subtração", "multiplicação", "divisão"
-        //escolhaOp = operacao.nextLine();
-
+        
      } 
      //Faça um algoritmo chamado Calculadora         
      //Solicita dois números do usuário
@@ -100,8 +98,6 @@ public class Quest3 {
         System.out.println("O resultado da divisão é: " + resultado);
 
     }
-
-    //Vou fazer um switch para a escolha da operação a ser realizada
 
     
 
