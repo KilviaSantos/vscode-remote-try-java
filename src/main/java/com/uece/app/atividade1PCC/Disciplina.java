@@ -1,5 +1,5 @@
 package com.uece.app.atividade1PCC;
 
-public class string {
+public class Disciplina {
 
 }
