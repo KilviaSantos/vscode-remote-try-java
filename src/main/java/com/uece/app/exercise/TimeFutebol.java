@@ -5,7 +5,7 @@ public class TimeFutebol{
 
     private List<Jogador> jogadores;
 
-    private string nome;
+    private String nome;
 
     public TimeFutebol(){
         this.setNome("Sem Nome");
@@ -16,7 +16,7 @@ public class TimeFutebol{
     }
 
     public void setNome(String Nome){
-        this.nome = nome;
+        this.nome = Nome;
     }
 
     public List<Jogador> getJogadores(){
