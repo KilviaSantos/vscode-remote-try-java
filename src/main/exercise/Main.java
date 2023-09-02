@@ -24,8 +24,12 @@ public static void main(String[] args) {
     time.setJogadores(lista);
 
     try{
-        System.out.println(null);
+        System.out.println(
+            "Quantidade: " + time.getJogadores().size()
+        );
+
+    }catch(Exception e){
+        System.out.println("Opss...: " = e.getMessage());
     }
-} 
-    
+ } 
 }
