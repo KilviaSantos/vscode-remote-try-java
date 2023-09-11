@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quest1",
+            "request": "launch",
+            "mainClass": "com.uece.app.atividade2PCC.quest1",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "com.uece.app.exercise.Main",
